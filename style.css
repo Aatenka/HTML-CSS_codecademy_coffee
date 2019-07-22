@@ -1,0 +1,112 @@
+body {
+    background-image: linear-gradient(45deg, #F7F7F7, #EAE0D5);
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    color: #444444;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+    background-position: center center;
+    height: 400px;
+}
+
+h1 {
+    font-family: 'Covered By Your Grace', sans-serif;
+    color: #663300;
+    margin: 0;
+    font-size: 6em;
+    font-weight: 1000;
+    /* sposob na wycentrowanie tekstu w pionie i poziomie */
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #dba572bb;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 0.4;
+}
+
+h5 {
+    font-size: 1.3em;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0.1;
+}
+
+p {
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #938E89;
+}
+
+a {
+    color: #214E34;
+    font-size: 0.9em;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+hr {
+    margin: 3em 0.2em;
+    border-color: #f5ab67bb;
+}
+
+.roasting p {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.about {
+    text-align: center;
+    margin: 4em 10.2em;
+}
+
+.roasting div {
+    color: white;
+    margin: 0em 10.5em;
+    padding: 0.2em 3em 1em 3em;
+    text-align: left;
+}
+
+.green {
+    background-color: #8ABF9A;
+}
+
+.light {
+    background-color: #8f643b;
+}
+
+.city {
+    background-color: #5e4227
+}
+
+.vienna {
+    background-color: #311e0b
+}
+
+.italian {
+    background-color: #1c140d
+}
+
+.countries {
+    margin: 5em 10.8em;
+    line-height: 2em;
+}
