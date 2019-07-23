@@ -32,8 +32,14 @@ h2 {
 }
 
 h3 {
+    color: #8f643b;
     font-size: 1.8em;
     font-weight: 500;
+    padding: 0.5em;
+    border: 0.08em dotted #dba572bb;
+    border-radius: 0.5em;
+    margin: 4em;
+    display: inline
 }
 
 h4 {
@@ -77,6 +83,11 @@ hr {
 .about {
     text-align: center;
     margin: 4em 10.2em;
+}
+
+.about p {
+    position: relative;
+    top: 0.5em;
 }
 
 .roasting div {
